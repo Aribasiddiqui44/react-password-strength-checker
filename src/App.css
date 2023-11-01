@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+.App{
+    background-color: rgb(66, 62, 62);
+    color: white;
+    width: 45%;
+    margin: auto;
+    margin-top: 30vh;
+    padding: 20px 50px 20px 50px;
+    box-shadow: 0px 0px 25px 25px #2fcdb533;
+    border-radius: 30px;
+}
+.App h1{
+    margin-left: 70px;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+label{
+    padding: 10px;
+    margin: 10px;
+    color: orange;
+}
+.errors{
+    padding: 20px;
+    width: 30vw;
+    margin-left: 15px ;
+    border: 1px solid white;
+    color: white;
+}
+#password{
+    border-radius: 5px;
+    height: 3vh;
+}
+button{
+    margin: 10px 10px 0px 40px;
+    width: 70%;
+    height: 5vh;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px #2fcdb533;
+    margin-bottom: 20px;
+}
